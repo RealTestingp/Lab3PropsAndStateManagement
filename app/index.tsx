@@ -1,15 +1,9 @@
-import { Text, View } from "react-native";
+/**
+ * My To Do List App
+ *
+ * @format
+ */
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
-}
+import App from "../components/App";
+
+export default App;
